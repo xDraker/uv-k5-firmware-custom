@@ -8,12 +8,12 @@ ENABLE_FMRADIO                	?= 1
 ENABLE_UART                   	?= 1
 ENABLE_AIRCOPY                	?= 1
 ENABLE_NOAA                   	?= 0
-ENABLE_VOICE                  	?= 1
-ENABLE_VOX                    	?= 1
+ENABLE_VOICE                  	?= 0
+ENABLE_VOX                    	?= 0
 ENABLE_ALARM                  	?= 1
 ENABLE_TX1750                 	?= 1
 ENABLE_PWRON_PASSWORD         	?= 0
-ENABLE_DTMF_CALLING           	?= 1
+ENABLE_DTMF_CALLING           	?= 0
 ENABLE_FLASHLIGHT             	?= 1
 
 # ---- CUSTOM MODS ----
@@ -36,8 +36,8 @@ ENABLE_FASTER_CHANNEL_SCAN    	?= 1
 ENABLE_RSSI_BAR               	?= 1
 ENABLE_AUDIO_BAR              	?= 1
 ENABLE_COPY_CHAN_TO_VFO       	?= 1
-ENABLE_REDUCE_LOW_MID_TX_POWER	?= 0
-ENABLE_BYP_RAW_DEMODULATORS   	?= 1
+ENABLE_REDUCE_LOW_MID_TX_POWER	?= 1
+ENABLE_BYP_RAW_DEMODULATORS   	?= 0
 ENABLE_BLMIN_TMP_OFF          	?= 0
 ENABLE_SCAN_RANGES            	?= 1
 ENABLE_FEAT_F4HWN             	?= 1
@@ -52,18 +52,18 @@ ENABLE_FEAT_F4HWN_NARROWER      ?= 1
 ENABLE_FEAT_F4HWN_INV           ?= 1
 ENABLE_FEAT_F4HWN_CTR           ?= 1
 ENABLE_FEAT_F4HWN_RESCUE_OPS    ?= 0
-ENABLE_FEAT_F4HWN_VOL           ?= 0
+ENABLE_FEAT_F4HWN_VOL           ?= 1
 ENABLE_FEAT_F4HWN_RESET_CHANNEL ?= 0
 ENABLE_FEAT_F4HWN_PMR           ?= 0
 ENABLE_FEAT_F4HWN_GMRS_FRS_MURS	?= 0
-ENABLE_FEAT_F4HWN_CA         	?= 1
+ENABLE_FEAT_F4HWN_CA         	?= 0
 ENABLE_FEAT_F4HWN_DEBUG         ?= 0
 ENABLE_REGA	                	?= 0
 
 # ---- DEBUGGING ----
 ENABLE_AM_FIX_SHOW_DATA       	?= 1
-ENABLE_AGC_SHOW_DATA          	?= 1
-ENABLE_UART_RW_BK_REGS        	?= 1
+ENABLE_AGC_SHOW_DATA          	?= 0
+ENABLE_UART_RW_BK_REGS        	?= 0
 
 # ---- COMPILER/LINKER OPTIONS ----
 ENABLE_CLANG                  	?= 0

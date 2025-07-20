@@ -142,7 +142,7 @@ uint16_t BK1080_GetFreqLoLimit(uint8_t band)
 uint16_t BK1080_GetFreqHiLimit(uint8_t band)
 {
     band %= 4;
-    uint16_t lim[] = {1080, 1080, 900, 760};
+    uint16_t lim[] = {1080, 1080, 900, 1080};
     return lim[band % 4];
 }
 
